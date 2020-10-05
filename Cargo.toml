@@ -8,4 +8,3 @@ edition = "2018"
 
 [dependencies]
 opaque_hygiene = { path = "./opaque_hygiene" }
-maud = {path = "/home/aaron/repos/maud/maud" }

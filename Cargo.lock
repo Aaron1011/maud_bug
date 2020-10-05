@@ -8,8 +8,7 @@ checksum = "7ffc5c5338469d4d3ea17d269fa8ea3512ad247247c30bd2df69e68309ed0a08"
 
 [[package]]
 name = "maud"
-version = "0.21.0"
-source = "git+https://github.com/aknuds1/maud?rev=949032771df180f1914ec5e0850c8503db508370#949032771df180f1914ec5e0850c8503db508370"
+version = "0.22.0"
 dependencies = [
  "maud_htmlescape",
  "maud_macros",
@@ -20,22 +19,25 @@ name = "maud_bug"
 version = "0.1.0"
 dependencies = [
  "maud",
+ "opaque_hygiene",
 ]
 
 [[package]]
 name = "maud_htmlescape"
 version = "0.17.0"
-source = "git+https://github.com/aknuds1/maud?rev=949032771df180f1914ec5e0850c8503db508370#949032771df180f1914ec5e0850c8503db508370"
 
 [[package]]
 name = "maud_macros"
-version = "0.21.0"
-source = "git+https://github.com/aknuds1/maud?rev=949032771df180f1914ec5e0850c8503db508370#949032771df180f1914ec5e0850c8503db508370"
+version = "0.22.0"
 dependencies = [
  "matches",
  "maud_htmlescape",
  "syn",
 ]
+
+[[package]]
+name = "opaque_hygiene"
+version = "0.1.0"
 
 [[package]]
 name = "proc-macro2"

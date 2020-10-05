@@ -1,7 +1,8 @@
 pub async fn serve() {
-    maud::html! {
+    opaque_hygiene::make_it!();
+    /*maud::html! {
         body."w-100" {
             #initial data-json=("") {}
         }
-    };
+    };*/
 }
